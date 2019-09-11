@@ -2,4 +2,33 @@
 org-name= "rahul_padmanabhan"
 version= "0.1.0"
 
-[dependencies]
+[platform]
+target = "java8"
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/libtensorflow-1.14.0.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/libtensorflow_jni-1.14.0.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/deeplearning4j-core-1.0.0-beta5.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/deeplearning4j-modelimport-1.0.0-beta5.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/nd4j-native-platform-1.0.0-beta5.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/deeplearning4j-nn-1.0.0-beta5.jar"
+    modules = ["ml_service"]
+
+    [[platform.libraries]]
+    path = "/Users/rahul_padmanabhan/Code/Workspace6/ballerina-hackathon/ml-connector/java_dependencies/nd4j-common-1.0.0-beta5.jar"
+    modules = ["ml_service"]
